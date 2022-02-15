@@ -1,5 +1,8 @@
 image: pmasala/test-project:0.0.1-SNAPSHOT
 dbms: postgresql
+environmentVariables:
+  - name: Ciccio
+    value: Kabubi
 healthCheckPath: "/management/health"
 roles:
   - "testProject-admin"
